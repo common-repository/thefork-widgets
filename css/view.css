@@ -1,0 +1,61 @@
+/* Default styles */
+
+iframe.tfw-widget-iframe{
+		width: 100%;
+		border:none;
+		scrolling:yes;
+}
+
+/* Media queries widget */ 
+@media only screen and (max-width : 320px) { 
+	    iframe.tfw-widget-iframe{
+	    		min-height: 940px;
+	    }
+}
+@media only screen and (min-width : 321px) and (max-width : 516px){
+	    iframe.tfw-widget-iframe{
+	    		min-height: 750px; 
+	    }
+}
+@media only screen and (min-width : 517px) { 
+	    iframe.tfw-widget-iframe{
+	    		min-height: 550px; 
+	    }
+}
+
+
+/*Button styles*/
+
+
+div.tfw-floating-button{
+    opacity: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid;
+    z-index: 9999999;
+    background-color: #fff;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 46px;
+    width: 280px;
+    border-color: rgba(90, 149, 66, 1);
+    color: rgba(90, 149, 66, 1);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+div.tfw-floating-button .tfw-widget-link{
+    text-decoration: none;
+    color: rgba(90, 149, 66, 1);
+    font-family: Raleway, sans-serif;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+}
+div.tfw-floating-button .tfw-widget-link:hover{
+    font-weight: 700;
+    background: none!important;
+}

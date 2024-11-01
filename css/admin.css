@@ -1,0 +1,90 @@
+/*button admin styles*/
+.tfw-table{
+	margin:10px 0 30px;
+}
+
+.tfw-table-active td{
+	padding-bottom:10px;
+}
+
+.tfw-table-language td{
+	padding-bottom:5px;
+}
+
+table.tfw-table td{
+	min-width:135px;
+}
+
+input.tfw-input [type=checkbox]{
+	margin: 0px 10px 0px 2px;
+}
+
+.shortcode input{
+	width: 320px;
+}
+
+form.tfw-form{
+	margin: 50px 30px 10px 5px;
+}
+
+.tfw-button {
+	width: 100px;
+	background: #589442;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	/*width: 80px;*/
+	/*margin: 10px 5px;*/
+}
+
+/* Preview div */
+div.tfw-preview {
+    float: left;
+    width: 50%;
+    margin: 50px auto;
+    height: 900px;
+     background: white; 
+    border: 0 none;
+    border-radius: 3px;
+    /* box-shadow: 0 0 15px 1px rgb(0 0 0 / 40%); */
+}
+
+
+div.tfw-preview h2{
+	border-bottom: 1px solid #CCCCCC;
+    background-color: white;
+    margin-block-end: 0 !important;
+	text-align: center;
+	padding: 15px 0 25px 0;
+}
+
+.tfw-get-widget-left{
+	float: left;
+	width: 40%;
+	margin: 50px 30px 10px 5px;
+}
+
+.tfw-get-id-left{
+	float: left;
+	margin: 50px 80px 50px 0;
+}
+
+/* Media queries form */
+
+@media only screen and (max-width : 880px) { 
+	.tfw-get-widget-left{
+		width: 95%;
+		margin: 20px 5px 20px 5px;
+	}
+	.tfw-form{
+		margin: 25px 0 0 0;
+	}
+
+	div.tfw-preview{
+	    width: 95%;
+	    margin: 20px 5px 20px 5px;
+	}
+}
